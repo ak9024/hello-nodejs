@@ -1,6 +1,6 @@
 # hello-nodejs
 
-Simple node js serve HTML with NodeJS as REST API.
+Simple NodeJS server to serve HTML with NodeJS as REST API.
 
 ### Pre-requisites
 
