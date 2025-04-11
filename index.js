@@ -4,7 +4,7 @@ const http = require("http");
 const fs = require("fs");
 
 const getTodo = async () => {
-  const url = `https://jsonplaceholder.typicode.com/todos/5`;
+  const url = `https://jsonplaceholder.typicode.com/todos/6`;
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error(`Ops error occured from server.`);
