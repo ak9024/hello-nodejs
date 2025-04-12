@@ -7,7 +7,7 @@ const getTodo = async () => {
   const url = `https://jsonplaceholder.typicode.com/todos`;
   const response = await fetch(url);
   if (!response.ok) {
-    throw new Error(`Ops error occured from server.`);
+    throw new Error(`Oops error occured from server.`);
   }
 
   let result = "";
